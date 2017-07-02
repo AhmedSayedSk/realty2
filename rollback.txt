@@ -1,0 +1,4 @@
+to rollback :
+1-show history : git reflog
+2-Rollback to specific commit Say "HEAD@{2}"
+git reset --hard HEAD@{2}

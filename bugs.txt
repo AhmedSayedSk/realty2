@@ -1,0 +1,8 @@
+if url not found handle it --Rania
+if msg empty don't send it --Rania
+msg sent to the 2nd user at same time 1st user sent --Rania
+check login from chat >>Redirect to same chat --Rania
+comment page redirect after any login check it please --Rania
+if  not login sent double click is a must(Bug) to show login modal --Rania
+
+

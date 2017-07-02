@@ -1,0 +1,118 @@
+body {
+  /*padding-top: 30px;*/
+  padding-bottom: 30px;
+  background-color: cornsilk;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-right: 50%;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[id="inputConfirmPassword"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+  height: 500px;
+  background-color: #d9edf7;
+}*/
+.btn{
+  margin-bottom: 5px;
+}
+#Errors{
+  width: 100%;
+}
+#edit{
+/*display:none;*/
+/*  visibility: hidden;*/
+}
+.glyphicon-comment{
+  color: darkgrey;
+  padding-top:3px;
+  padding-right: 5px;
+}
+#textbox{
+  resize: none;
+  margin: 0px 0px 20px;
+  width:100%;
+  height: 56px;
+}
+#content{
+  overflow: auto;
+  height: 300px;
+}
+.descBox{
+  display:none;
+  position:absolute;
+  border:1px solid azure;
+  width: 200px;
+  height: 70px;
+  margin-left: 15%;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 25px;
+
+
+}
+.loginRequest{
+  display:none;
+  text-align: center;
+/*  background-color:lightblue;*/
+  position:absolute;
+  border:1px solid azure;
+  width: 350px;
+  height: 120px;
+  margin: 15%;
+  margin-left: 30%;
+  z-index: 1;
+ background: rgba(200, 54, 54, .9);
+
+}
+.messageBtn{
+  margin-left: 30%;
+  margin-top:8%; 
+}
+/*.forbiden{
+  
+  background-color: white;
+  opacity: .2;
+}
+.descDiv{
+    background:#ccc;
+    border: 1px #333 solid;
+    padding:5px;
+    width:100px;
+}*/
+
